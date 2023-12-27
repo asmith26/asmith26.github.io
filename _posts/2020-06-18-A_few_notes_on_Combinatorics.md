@@ -16,7 +16,7 @@ probability and equally likely outcomes.
 
 The number of ways for choosing $$r$$ elements from a set of $$n$$ elements is:
 
-![A table of equations used for various combinatoric computations](/assets/img/_posts/2020-06-18-A_few_notes_on_Combinatoricscombinatorics_table.png)
+![A table of equations used for various combinatoric computations](/assets/img/posts/2020-06-18-A_few_notes_on_Combinatorics/combinatorics_table.png)
 
 - Top-right is **permutations** (ordered).
 - Bottom-right is **combinations** (unordered).

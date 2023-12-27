@@ -5,7 +5,7 @@ date: 2018-08-15T15:44:34.062+0000
 categories: [Mathematics,Probability]
 tags: ["mathematics","probability","card-game"]
 image:
-  path: /assets/img/_posts/2018-08-15-What_are_the_odds_for_the_horse_race_card_game/horse_race_card_game.jpeg
+  path: /assets/img/posts/2018-08-15-What_are_the_odds_for_the_horse_race_card_game/horse_race_card_game.jpeg
 ---
 
 TODO FINISH FORMATTING
@@ -17,8 +17,6 @@ My father challenged me to the following problem — what are the odds for each 
 **2.** 6 cards face-up are laid (“race track”) in a straight line perpendicular to the aces.
 
 **3.** The race proceeds by flipping the remaining deck, & the ace matching that suit advances 1 step until a winner reaches the finish line (card 6).
-
-![Cards laid out on a table demostrating how the horse race card game works](/assets/img/_posts/2018-08-15-What_are_the_odds_for_the_horse_race_card_game/horse_race_card_game.jpeg)
 
 [ **TL;DL** the probability of each horse winning is essentially governed by a [multinomial distribution](https://en.wikipedia.org/wiki/Multinomial_distribution), however we must take into consideration that the probabilities of flipped cards change (since the probability of future flips depends on what has already been flipped). ]
 
