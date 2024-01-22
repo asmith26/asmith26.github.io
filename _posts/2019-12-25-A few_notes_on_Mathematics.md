@@ -23,26 +23,40 @@ Definitions and Propositions/Theorems/… normally take the form:
 > If a function $$f$$ is both injective and surjective, then $$f$$ is bijection.
 
 ## **List some problem solving strategies**
-> - What are you trying to answer? 
-> - Do you understand all notation/terminology?
-> - Can you draw a table/graph/picture to describe what’s going on?
+- What are you trying to answer? 
+- Do you understand all notation/terminology?
+- Can you draw a table/graph/picture to describe what’s going on?
 
-> - Can you identify exactly why you are stuck?
-> - Simplify the problem/consider simple cases (when $$x = 0, 1, 2,...$$; when $$x$$ is real, integer,…; limiting cases).
+<p/>
 
-> - Make conjectures and assumptions — do they initially break down?
-> - Which theorems can be used based on the assumptions?
+- Can you identify exactly why you are stuck?
+- Simplify the problem/consider simple cases (when $$x = 0, 1, 2,...$$; when $$x$$ is real, integer,…; limiting cases).
 
-> - Patterns? Similar examples?
-> - What strategies are used for similar problems like this?
+<p/>
 
-> - Is it better to work backwards?
+- Make conjectures and assumptions — do they initially break down?
+- Which theorems can be used based on the assumptions?
 
-> - Create a concept map (quantity not quality). Which ideas are worth following?
+<p/>
 
-> - Take a break/walk (use the deep mind to solve unconsciously).
+- Patterns? Similar examples?
+- What strategies are used for similar problems like this?
 
-> Review:
-> - Check all calculations and logic hold.
-> - Dimensional analysis: Is the answer dimensionally correct? Does the size/sign seem reasonable?
-> - Can you check using a different method?
+<p/>
+
+- Is it better to work backwards?
+
+<p/>
+
+- Create a concept map (quantity not quality). Which ideas are worth following?
+
+<p/>
+
+- Take a break/walk (use the deep mind to solve unconsciously).
+
+<p/>
+
+Review:
+- Check all calculations and logic hold.
+- Dimensional analysis: Is the answer dimensionally correct? Does the size/sign seem reasonable?
+- Can you check using a different method?
