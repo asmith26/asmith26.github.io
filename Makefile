@@ -11,8 +11,8 @@ env-export:                                  ## Export mamba env
 	mamba env export > environment.yml
 	mamba env export --from-history > environment-from_history.yml
 
-install-ruby-dependencies:
+install-ruby-dependencies:                   ## Install ruby dependencies
 	bundle
 
-run-local-server:
+run-local-server:                            ## Run a local server
 	bundle exec jekyll s
