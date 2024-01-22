@@ -8,7 +8,7 @@ image:
   path: /assets/img/posts/2017-12-14-NeurIPS_2017_Summary_and_Highlights/bayesian_and_deep_learning.png
 ---
 
-I was very fortunate to go to the conference on Neural Information Processing Systems ([NeurIPS](https://neuips.cc/)) this year, one of the biggest gathering of AI researchers (indeed, this year’s tickets were sold out in only a few weeks). Conferences like NIPS provide great opportunities to learn about most recent research, identify the most important papers (particularly given the sheer number that are released on websites like [https://arxiv.org/](https://arxiv.org/) every day), as well as tremendous opportunities to discuss techniques and problems with some of the leading experts.
+I was very fortunate to go to the conference on Neural Information Processing Systems ([NeurIPS](https://neurips.cc/)) this year, one of the biggest gathering of AI researchers (indeed, this year’s tickets were sold out in only a few weeks). Conferences like NeurIPS provide great opportunities to learn about recent research (particularly given the sheer amount of research that is released on websites like [https://arxiv.org/](https://arxiv.org/) every day), as well as tremendous opportunities to discuss techniques and problems with some of the leading experts.
 
 ![](/assets/img/posts/2017-12-14-NeurIPS_2017_Summary_and_Highlights/atrium.png)
 *Registration queue on Sunday afternoon (the day before the official conference start)!*
@@ -16,13 +16,13 @@ I was very fortunate to go to the conference on Neural Information Processing Sy
 ![](/assets/img/posts/2017-12-14-NeurIPS_2017_Summary_and_Highlights/poster_session.png)
 *Poster session — roughly 230 posters on each Monday, Tuesday and Wednesday evenings.*
 
-My head is absolutely packed with new ideas, and have come away with lots of methods I want to try and papers to read. Given the sheer amount of research published at this year NIPS, it was impossible to get around every section of the conference. I hope to summarise the conference below, and some of my personal highlights.
+My head is absolutely packed with new ideas, and have come away with lots of methods I want to try and papers to read. Given the sheer amount of research published at this year NeurIPS, it was impossible to get around every section of the conference. I hope to summarise the conference below, and some of my personal highlights.
 
 Some of the key topics from the conference include: **deep learning, GANs, unsupervised learning, model interpretability, meta-learning, deep reinforcement learning, probabilistic and Bayesian learning.**
 
 ### **Tutorials**
 
-Although I hadn’t registered to attend any of them, it was great that some of them were live-streamed over the [NIPS facebook page](https://www.facebook.com/NIPSlive). The _[Deep Learning: Practice and Trends](https://www.youtube.com/watch?v=YJnddoa8sHk)_ tutorial provided a useful overview of deep learning concepts and techniques. It also informed on recent trends in deep learning research and applications:
+Although I hadn’t registered to attend any of them, it was great that some of them were live-streamed over the [NeurIPS facebook page](https://www.facebook.com/NIPSlive). The _[Deep Learning: Practice and Trends](https://www.youtube.com/watch?v=YJnddoa8sHk)_ tutorial provided a useful overview of deep learning concepts and techniques. It also informed on recent trends in deep learning research and applications:
 - ***Autoregressive Models:*** a time series model that uses observations from previous time steps as input to a regression equation to predict the value at the next time step. Overview of the types used and the applications (e.g. DeepMind’s WaveNet for synthesising speech).
 - ***Domain Alignment/Unsupervised Alignment:*** learning to translate from one domain to another, without explicit input/output pairs. One of my favourite papers, [*Unsupervised Image-to-Image Translation Networks*](http://papers.nips.cc/paper/6672-unsupervised-image-to-image-translation-networks) ([code](https://github.com/mingyuliutw/unit)) uses this idea with generative adversarial networks (GANs). It works very well at e.g. transferring an image from a winter scene to a summer scene:
 
@@ -54,7 +54,7 @@ I particularly enjoyed [John Platt’s talk](https://www.youtube.com/watch?v=L1j
 
 [Brendan Frey’s talk](https://www.youtube.com/watch?v=QJLQBSQJEus) was on how machine learning is essential to help understand complicated and noisy biology. He also discussed how his company Deep Genomics is reducing the time it takes to develop drugs — I was fascinated about the idea of a cloud laboratory, which like cloud technologies for computing allows researchers use remote laboratories to conduct experiments for drug design/test by simply uploading a Python script.
 
-[Ali Rahmi’s talk](https://www.youtube.com/watch?v=Qi1Yry33TQE) (test-of-time award) discussed how machine learning has become the new alchemy. Instead he wants the “NIPS Rigour Police” to come back and help take machine learning from alchemy to [electricity](https://twitter.com/andrewyng/status/735874952008589312?lang=en) using “simple experiments and simple theorems [that] are the building blocks that help us understand complicated systems”. This was certainly one of the most talked about presentation at the entire conference.
+[Ali Rahmi’s talk](https://www.youtube.com/watch?v=Qi1Yry33TQE) (test-of-time award) discussed how machine learning has become the new alchemy. Instead he wants the “NeurIPS Rigour Police” to come back and help take machine learning from alchemy to [electricity](https://twitter.com/andrewyng/status/735874952008589312?lang=en) using “simple experiments and simple theorems [that] are the building blocks that help us understand complicated systems”. This was certainly one of the most talked about presentations at the entire conference.
 
 [Kate Crawford presented an important talk](https://www.youtube.com/watch?v=fMym_BKWQzk) on the trouble with bias in machine learning systems. She highlighted how such biases can arise from many factors and thoughts about how to deal with it.
 
@@ -79,7 +79,7 @@ Meta-learning are used approach most of these problems — one very impressive e
 
 Yael Niv delivered a talk with a more neuroscience focus on [Learning State Representations](https://www.youtube.com/watch?v=SHflZTvXp24). She asked the question how do we learn from relatively little experience. I found some of the experiments conducted very fascinating.
 
-Finally, Yee Whye Teh presented [On Bayesian Deep Learning and Deep Bayesian Learning](https://www.youtube.com/watch?v=9saauSBgmcQ). Bayesian techniques was a big theme at NIPS, particularly methods for helping us to better reason about uncertainty and learn more efficiently from smaller datasets.
+Finally, Yee Whye Teh presented [On Bayesian Deep Learning and Deep Bayesian Learning](https://www.youtube.com/watch?v=9saauSBgmcQ). Bayesian techniques was a big theme at NeurIPS, particularly methods for helping us to better reason about uncertainty and learn more efficiently from smaller datasets.
 
 ![](/assets/img/posts/2017-12-14-NeurIPS_2017_Summary_and_Highlights/bayesian_and_deep_learning.png)
 *Great slide from Yee Whye Teh keynote [On Bayesian Deep Learning and Deep Bayesian Learning](https://www.youtube.com/watch?v=9saauSBgmcQ), comparing techniques from the two approaches.*
@@ -91,7 +91,7 @@ Finally, Yee Whye Teh presented [On Bayesian Deep Learning and Deep Bayesian Lea
 
 [***Safe and Nested Subgame Solving for Imperfect-Information Games***](http://papers.nips.cc/paper/6671-safe-and-nested-subgame-solving-for-imperfect-information-games) ***:*** This paper discusses the system called Libratus, the first AI to defeat top humans in heads-up no-limit Texas hold’em poker. Imperfect-information games are games where information is hidden from players (unlike games such as Go or Chess). This is important as there are many real-world decision-making situations that only have imperfect information. The [accompanying video](https://www.youtube.com/watch?v=EbKmZLp5HvA) provides a helpful overview.
 
-[***Dynamic Routing Between Capsules***](http://papers.nips.cc/paper/6975-dynamic-routing-between-capsules) ***:*** One of the most anticipated paper published at this year’s NIPS was Geoff Hinton’s idea of “capsules” (lead authors for this particular paper were Sara Sabour and Nicholas Frosst). Capsule Networks try to address some of the short comings of Convolutional Neural Networks. Indeed a “discrimininatively trained, multi-layer capsule system achieves state-of-the-art performance on MNIST and is considerably better than a convolutional net at recognizing highly overlapping digits”. The paper also states “research on capsules is now at a similar stage to research on recurrent neural networks for speech recognition at the beginning of this century”. I found the [accompanying video](https://www.youtube.com/watch?v=gq-7HgzfDBM&feature=youtu.be) gives a great overview, and [this blog post](https://kndrck.co/posts/capsule_networks_explained/) gives an excellent explanation behind the intuition and motivation behind them.
+[***Dynamic Routing Between Capsules***](http://papers.nips.cc/paper/6975-dynamic-routing-between-capsules) ***:*** One of the most anticipated paper published at this year’s NeurIPS was Geoff Hinton’s idea of “capsules” (lead authors for this particular paper were Sara Sabour and Nicholas Frosst). Capsule Networks try to address some of the short comings of Convolutional Neural Networks. Indeed a “discrimininatively trained, multi-layer capsule system achieves state-of-the-art performance on MNIST and is considerably better than a convolutional net at recognizing highly overlapping digits”. The paper also states “research on capsules is now at a similar stage to research on recurrent neural networks for speech recognition at the beginning of this century”. I found the [accompanying video](https://www.youtube.com/watch?v=gq-7HgzfDBM&feature=youtu.be) gives a great overview, and [this blog post](https://kndrck.co/posts/capsule_networks_explained/) gives an excellent explanation behind the intuition and motivation behind them.
 
 ![](/assets/img/posts/2017-12-14-NeurIPS_2017_Summary_and_Highlights/capsules.png)
 *Capsule Networks try to address some of the short comings of Convolutional Neural Networks. Indeed a “discrimininatively trained, multi-layer capsule system achieves state-of-the-art performance on MNIST and is considerably better than a convolutional net at recognizing highly overlapping digits”. Image from video.*
@@ -123,13 +123,13 @@ Another aspect I found fascinating with AlphaZero was how it also learned comple
 - Sharkzor: Interactive Deep Learning for Image Triage, Sort and Summary — although not currently available (the author mentioned they intend to open source this soon), this demonstrated [a fantastic web application for machine-learning assisted image classification](https://www.youtube.com/watch?v=XLny3IeiUkM). I’m very much looking forward to playing with this tool. I also believe it will provide a great platform for non-technical people to perform image classification.
 
 ### Miscellaneous
-- A [very comprehensive set of notes for NIPS 2017](https://cs.brown.edu/%7Edabel/blog/posts/misc/nips_2017.pdf).
-- Here is an [interesting visualisation of the 737 Twitter accounts most followed by members of the NIPS2017 community](http://johnguerra.co/viz/influentials/NIPS2017/).
+- A [very comprehensive set of notes for NeurIPS 2017](https://cs.brown.edu/%7Edabel/blog/posts/misc/nips_2017.pdf).
+- Here is an [interesting visualisation of the 737 Twitter accounts most followed by members of the NeurIPS2017 community](http://johnguerra.co/viz/influentials/NIPS2017/).
 - [http://www.matrixcalculus.org/](http://www.matrixcalculus.org/) — enables you to compute matrix derivatives using symbolic differentiation.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You know AI is a bubble when Intel invites Flo Rida to perform at their NIPS party <a href="https://t.co/Psyqlt8vcl">pic.twitter.com/Psyqlt8vcl</a></p>&mdash; hardmaru (@hardmaru) <a href="https://twitter.com/hardmaru/status/937223816358412288?ref_src=twsrc%5Etfw">December 3, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You know AI is a bubble when Intel invites Flo Rida to perform at their NeurIPS party <a href="https://t.co/Psyqlt8vcl">pic.twitter.com/Psyqlt8vcl</a></p>&mdash; hardmaru (@hardmaru) <a href="https://twitter.com/hardmaru/status/937223816358412288?ref_src=twsrc%5Etfw">December 3, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### **Other cool results I came across but not necessarily presented at NIPS**
+### **Other cool results I came across but not necessarily presented at NeurIPS**
 - [*Don’t decay the learning rate, increase the batch size*](https://arxiv.org/abs/1711.00489) — results show that you should see the same learning curve.
 - [*Distilling a Neural Network Into a Soft Decision Tree*](https://arxiv.org/abs/1711.09784) — using a trained deep neural network to create a type of soft decision tree, helping to explain why it makes a particular classification decision on a particular test case.
 - [Michael Nielsen’s video](https://www.youtube.com/watch?time_continue=2&v=Ijqkc7OLenI) providing intuition behind the universal approximation theorem for neural networks.
