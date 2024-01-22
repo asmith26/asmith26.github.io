@@ -11,6 +11,8 @@ image:
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+## Please note: this post is still in the process of being migrated from [medium](https://medium.com/@asmith9992/what-are-the-odds-for-the-horse-race-card-game-939a67602d2e).
+
 My father challenged me to the following problem — what are the odds for each “horse” in the following game scenario:
 
 **1.** The 4 aces (“horses”) are laid face-up at 1 end of the table.
