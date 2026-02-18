@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+*Many of the early blog posts were originally written on Medium and migrated here
+with the help of [this tool](https://github.com/ZhgChgLi/ZMediumToJekyll).*

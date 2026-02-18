@@ -1,0 +1,8 @@
+name: asmith26.github.io
+channels:
+  - conda-forge
+dependencies:
+  - ruby
+  - gxx_linux-64
+  - ca-certificates
+  - openssl
